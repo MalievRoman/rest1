@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <h1 class="text-center">Nostalgy</h1>
+    <h2 class="text-center">{{ params["name"] }} {{ params["surname"] }}</h2>
+    <h3 class="text-center">Hometown: {{ params["city_from"] }}</h3>
+    <img style="display: table; margin: 0 auto;" src="/static/img/map.png"/>
+
+{% endblock %}
